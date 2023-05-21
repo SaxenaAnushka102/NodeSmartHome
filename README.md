@@ -100,9 +100,80 @@ FirebaseArduino now depends on ArduinoJson library
 
 ![image](https://github.com/SaxenaAnushka102/NodeSmartHome/assets/58849657/5343ce86-55b5-4753-a434-0c06ee2f0f08)
 
-#### 6. 
+#### 6. In the Realtime Database you just created, go to `Rules` > `Edit rules` to set the read and write permissions to true. Click `Publish` once you're done.
 
-6. Updation of Arduino Firebase Library Fingerprint
+![image](https://github.com/SaxenaAnushka102/NodeSmartHome/assets/58849657/09134f6a-b8de-4825-a0c8-4bf56ef015b0)
+
+#### 7. Go to `Data` tab & copy the Reference URL from top panel. Save this in Notepad.
+
+![image](https://github.com/SaxenaAnushka102/NodeSmartHome/assets/58849657/87e6686f-635e-414b-9209-014c05e1d37d)
+
+#### 8. Open the file `4relay_mit.ino` & paste the link copied in the last step (w/o https) in the third line as shown.
+
+![image](https://github.com/SaxenaAnushka102/NodeSmartHome/assets/58849657/97479d09-4db1-439f-81d5-3d8695631d53)
+
+#### 9. Go to the Firebase Project & head on to the `Settings` > `Project Settings` > `Service accounts` > `Database secrets`. Copy the secret key.
+
+![image](https://github.com/SaxenaAnushka102/NodeSmartHome/assets/58849657/8852dddc-26b3-4be6-b732-b74599557a07)
+
+![image](https://github.com/SaxenaAnushka102/NodeSmartHome/assets/58849657/2a30f03b-b138-45fe-b35d-9352722bac88)
+
+#### 10. Go to Arduino IDE & paste the secret key into line 4 of `4relay_mit.ino` as shown.
+
+![image](https://github.com/SaxenaAnushka102/NodeSmartHome/assets/58849657/b0e42391-53a9-4238-9011-bbe9370bae60)
+
+#### 11. Write the name of your WiFi & password in the third & fourth line of `4relay_mit.ino`.
+
+#### 12. Connect LEDs on indicated pins (ex.- D1, D2, D5, D6) or connect relay input to the pins.
+
+#### 13. Go to https://appinventor.mit.edu/
+
+![image](https://github.com/SaxenaAnushka102/NodeSmartHome/assets/58849657/62686d6a-da07-4a35-b1be-f40f611d5f93)
+
+#### 14.  Click on `Create Apps` and Login with your mail. Go to `Projects` > `Import Project (.aia) from my computer` and upload `smart home app.aia`
+
+![image](https://github.com/SaxenaAnushka102/NodeSmartHome/assets/58849657/a5fda0b9-99af-4d4d-954b-b58d20353bad)
+
+#### 15. After the App is loaded, click on `FirebaseDB1` and on right panel, paste your secret key in `Firebase Token` field and Reference URL in `Firebase URL` fields. Set bucket value to NULL.
+
+![image](https://github.com/SaxenaAnushka102/NodeSmartHome/assets/58849657/004df2c6-e982-4aa9-8cb2-bf46bfe26b1d)
+
+#### 16. Click on `Connect` > `AI Companion` 
+
+![image](https://github.com/SaxenaAnushka102/NodeSmartHome/assets/58849657/81ba685c-1bd6-40cc-823c-e10e339695ba)
+
+#### 17. Open the MIT AI Copanion App in your Smart Phone. You'll see a Smart Home App once the QR is scanned successfully. 
+
+![image](https://github.com/SaxenaAnushka102/NodeSmartHome/assets/58849657/8a31b660-f049-4b8e-9f02-9c63dad6837c)
+
+![image](https://github.com/SaxenaAnushka102/NodeSmartHome/assets/58849657/c3c00cc9-208e-4e40-9815-3e55e75086ad)
+
+
+* ##  Updation of Arduino Firebase Library Fingerprint
+
+#### 1. Go to the path where the FirebaseArduino Library is installed. Now go to `firebase-arduino-master` < `src` & open FirebaseHttpClient.h in Notepad.
+
+![image](https://github.com/SaxenaAnushka102/NodeSmartHome/assets/58849657/cad45bde-7f33-40f6-8b3b-8a777d9dda44)
+
+![image](https://github.com/SaxenaAnushka102/NodeSmartHome/assets/58849657/81574663-ed11-4570-ba16-1fa5e64d98f3)
+
+#### 2. Now, we will change Firebase Fingerprint
+
+![image](https://github.com/SaxenaAnushka102/NodeSmartHome/assets/58849657/e2cc057a-755b-4b4f-b99f-643c5421a150)
+
+#### 3. Go to https://www.grc.com/fingerprints.htm & scroll down to paste the Firebase URL & click on `Fingerprint Site`.
+
+![image](https://github.com/SaxenaAnushka102/NodeSmartHome/assets/58849657/9801484a-7261-4d9b-b8da-fa247c8e62b3)
+
+#### 4. Copy the generated Key & replace in the notepad as shown & Save the changes. Close the Arduino IDE.
+
+![image](https://github.com/SaxenaAnushka102/NodeSmartHome/assets/58849657/6cacf3b1-80ae-47af-a256-60cad23720d7)
+
+![image](https://github.com/SaxenaAnushka102/NodeSmartHome/assets/58849657/94fae54e-e7f9-40c2-a27f-43e2cd0b562b)
+
+#### 5. TA-DAAAA! The SSL security is now configured & start connecting the Board to see the project working!!!
+
+
 
 ## Project Demo Video
 https://user-images.githubusercontent.com/58849657/232340116-d4e9ff1b-995f-464c-add7-0dceb9ee5799.mp4
