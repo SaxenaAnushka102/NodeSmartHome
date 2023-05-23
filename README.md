@@ -19,17 +19,25 @@ NodeSmartHome is a project for integrating smart devices in your home using Node
 * ## Installation of Arduino IDE 
 #### 1. Go to https://www.arduino.cc/
 
+![image](https://github.com/SaxenaAnushka102/NodeSmartHome/assets/58849657/e4dc0101-0da3-4fb0-a9c5-f498529c6ba4)
+
 ![image](https://github.com/SaxenaAnushka102/NodeSmartHome/assets/58849657/8c96b6b8-85a1-416a-8452-fa6e14934238)
 
 #### 2. Click on `Software` tab.
+
+![image](https://github.com/SaxenaAnushka102/NodeSmartHome/assets/58849657/e1740690-89dd-4d8f-b52c-f094e851cad7)
 
 ![image](https://github.com/SaxenaAnushka102/NodeSmartHome/assets/58849657/969acddd-197d-44df-9501-064e29593213)
 
 #### 3. Scroll down to Downloads.
 
+![image](https://github.com/SaxenaAnushka102/NodeSmartHome/assets/58849657/d5b98d2c-d3b7-43e2-827a-ec7a7646045f)
+
 ![image](https://github.com/SaxenaAnushka102/NodeSmartHome/assets/58849657/2898eff9-ba1e-4f28-9faa-62857ca9e299)
 
 #### 4. Download the .exe file according to your Operatng System. I have got "Windows 10 and newer, 64 bits" for my system.
+
+![image](https://github.com/SaxenaAnushka102/NodeSmartHome/assets/58849657/3a84b0ed-baab-40a7-a135-ac604c8edbe9)
 
 ![image](https://github.com/SaxenaAnushka102/NodeSmartHome/assets/58849657/2dd5605f-ef29-4d43-9e16-f1a053496697)
 
